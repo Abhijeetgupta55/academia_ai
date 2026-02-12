@@ -1,5 +1,5 @@
 ## AI Academic Certificate  Authenticator
-# 📌 Overview
+# Overview
 
 The AI Certificate Verifier is a tool designed to detect fraudulent or forged academic certificates using OCR (Optical Character Recognition), OpenCV image analysis, and machine learning models.
 
@@ -15,7 +15,7 @@ The system identifies signs of tampering such as:
 
 - Noise and artifact analysis
 
-# 🛠️ Features
+#  Features
 
 - OCR Extraction using pytesseract
 
@@ -27,7 +27,7 @@ The system identifies signs of tampering such as:
 
 - Modular Pipeline (easy to extend with new detection techniques)
 
-# 📂 Repository Structure
+#  Repository Structure
 ```
 ai-certificate-verifier/
 ├── AI_Model/               # Core source code for OCR + forgery detection pipeline
@@ -36,7 +36,7 @@ ai-certificate-verifier/
 ├── requirements.txt         # Project dependencies
 |___README.md                # Project documentation
 ```
-# 🚀 Getting Started
+# Getting Started
 1. Clone the repository
 ```
 git clone <repository-url>
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 python AI_Model/main.py --input data/sample_fake.pdf
 ```
 
-# 📦 Dependencies
+# Dependencies
 
 - Python 3.8+
 
@@ -66,7 +66,7 @@ python AI_Model/main.py --input data/sample_fake.pdf
 
 - matplotlib / seaborn (for visualization)
 
-# 🧪 Example Usage
+# Example Usage
 ```
 from src.main import run_verification
 
@@ -74,7 +74,7 @@ result = run_verification("data/sample_fake.pdf")
 print(result)
 # Output: {"status": "fraudulent", "reasons": ["Font mismatch", "Editing hotspots detected"]}
 ```
-# 📊 Sample Results
+# Sample Results
 The verifier outputs results in a tabular format summarizing each certificate’s tampering status, score, and details of anomalies detected.
 | File      | Tampering Status | Score | Details |
 |-----------|-----------------|-------|---------|
@@ -82,7 +82,7 @@ The verifier outputs results in a tabular format summarizing each certificate’
 | 2.img2    | Suspicious            |       |         |
 | 3.img3    | Suspicious            |       |         |
 
-# 📌 Future Work
+# Future Work
 
 - Deep learning–based forgery detection
 
