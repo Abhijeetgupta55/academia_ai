@@ -1,4 +1,2 @@
 File,Tampering Status,Score,Details
-1.jpeg,authentic certificate,92/100),
-2.png,suspicious,84/100) - No EXIF data; Normal ELA: 34.68; Consistent noise variance; Normal HF energy: 0.0050; Normal edge density; No empty table cells (0/0); Irregular line spacing (text addition); Inconsistent character widths (font mismatch); Text coverage: 0.043,
-3.png,suspicious,84/100) - No EXIF data; Normal ELA: 40.03; Consistent noise variance; Normal HF energy: 0.0055; Normal edge density; No empty table cells (0/0); Irregular line spacing (text addition); Inconsistent character widths (font mismatch); Text coverage: 0.128,
+sample_test.png,Suspicious,53.49,Font mismatch pattern; Inconsistent text alignment and spacing; Noise and artifact inconsistency
